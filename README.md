@@ -5,7 +5,7 @@
 [![Location](https://img.shields.io/badge/Location-Bangkok%2C%20Thailand-blue?style=flat&logo=google-maps)](https://maps.google.com)
 
 > **IT / Automation Engineer & Embedded IoT Developer**  
-> 2+ years of production experience spanning enterprise IT infrastructure, embedded IoT firmware, and modern web application development. Currently working at **Charoen Pokphand Foods (CPF)**.
+> 2+ years of production experience spanning enterprise IT support, embedded IoT firmware, and modern web application development. Currently working at **Charoen Pokphand Foods (CPF)**.
 
 ---
 
@@ -39,7 +39,7 @@
 | Domain | Technologies & Tools |
 | :--- | :--- |
 | **Embedded & IoT (OT)** | ESP32, ESP32-S3, FreeRTOS, Modbus RTU (RS485), MQTT, LittleFS, BLE, Sensor Interfacing |
-| **Enterprise IT & Network** | Windows Server, Active Directory (GPO/AD DS), GL.iNet OpenWrt, Tailscale Mesh VPN, WireGuard, Cloudflare Tunnels, 3CX PBX |
+| **Enterprise IT Support & Network** | Windows Client OS Support (DISM, SFC, netsh, batch scripting), GL.iNet OpenWrt, Tailscale Mesh VPN, WireGuard, Cloudflare Tunnels, 3CX PBX |
 | **AI & Automation** | Gemini API, pgvector RAG, n8n (Self-hosted), Power Apps, Power Automate, Python scripting |
 | **Full-Stack & Cloud** | Next.js 16, React, TypeScript, Node.js, Prisma, PostgreSQL, InfluxDB, Supabase, Firebase, Docker, Vercel |
 
@@ -48,7 +48,7 @@
 ## 💼 Work Experience
 
 - **Information System Officer** — *Charoen Pokphand Foods (CPF)* (Jul 2024 – Present)
-  - Managed Windows Server & Active Directory infrastructure, enterprise endpoint support.
+  - Handled enterprise desktop support, PC troubleshooting, command-line repair, and network printer setup.
   - Sourced and deployed BLE cold-chain monitoring (-80°C/-20°C) with 4G IoT gateways for biotech storage.
   - Built n8n incident alert bot pushing directly to LINE Messaging API.
   - Developed Gemini API + pgvector RAG knowledge search over internal technical manuals.
