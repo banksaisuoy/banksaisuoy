@@ -4,8 +4,8 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-IndOS%20IoT%20Platform-emerald?style=flat&logo=vercel)](https://indos-iot.vercel.app)
 [![Location](https://img.shields.io/badge/Location-Bangkok%2C%20Thailand-blue?style=flat&logo=google-maps)](https://maps.google.com)
 
-> **IT / Automation Engineer & Embedded IoT Developer**  
-> 2+ years of production experience spanning enterprise IT support, embedded IoT firmware, and modern web application development. Currently working at **Charoen Pokphand Foods (CPF)**.
+> **Multi-Disciplinary IT Systems, Embedded IoT & AI Automation Engineer**  
+> 2+ years of production experience bridging OT hardware with IT cloud infrastructure. Currently working at **Charoen Pokphand Foods (CPF)**.
 
 ---
 
@@ -14,9 +14,9 @@
 ### 🏭 [IndOS — Industrial IoT Operating System](https://github.com/banksaisuoy/indos-iot)
 > **Live Demo:** [indos-iot.vercel.app](https://indos-iot.vercel.app) *(Admin: `admin@indos.io` / `indos123`)*
 
-- **Architecture:** Next.js 16 (App Router), TypeScript 5 strict, Prisma ORM, Neon Postgres, Tailwind CSS 4 & shadcn/ui.
-- **Industrial Telemetry:** Aedes MQTT Broker with bcrypt auth & per-device ACL, Socket.io project-scoped streaming, InfluxDB time-series storage.
-- **Enterprise Security:** Ed25519 signed OTA firmware pipeline, NextAuth JWT sessions, RBAC (4 roles), multi-tenant `orgId` data isolation.
+- **Full-Stack & Cloud:** Next.js 16 (App Router), TypeScript 5 strict, Prisma ORM, Neon Postgres, Tailwind CSS 4, shadcn/ui.
+- **Telemetry Broker:** Aedes MQTT Broker with bcrypt auth & per-device ACL, Socket.io rooms, InfluxDB time-series.
+- **Enterprise Security:** Ed25519 signed OTA firmware pipeline, NextAuth JWT, multi-tenant RBAC (4 roles), Vitest (112 tests passed).
 
 ---
 
@@ -25,23 +25,44 @@
 
 - **Hardware & RTOS:** ESP32-S3, FreeRTOS multi-tasking architecture.
 - **Sensors & Actuators:** Modbus RTU / RS485 (SHT20 temperature & humidity), multi-stage fan relay control, THI calculation.
-- **Connectivity:** MQTT telemetry with offline LittleFS circular buffering, local web dashboard & Over-The-Air (OTA) updates.
+- **Connectivity:** MQTT telemetry with circular LittleFS flash buffering, local web dashboard & OTA updates.
+
+---
+
+### 🧑‍🚒 [Smart Firefighter Helmet IoT](https://github.com/banksaisuoy/smart-firefighter-helmet)
+> **Rescue Tech:** Real-time environmental hazard monitoring and live video streaming for emergency responders.
+
+- **Embedded Systems:** ESP32 + ESP32-CAM (MJPEG video streaming), MQ-2 toxic gas/smoke sensor, GPS location tracking.
+- **Telemetry:** Heads-up I2C OLED display, DHT22 temperature/humidity microclimate monitoring, Blynk IoT cloud integration.
+
+---
+
+### 🧠 [Hermes Local AI Agent Orchestrator](https://github.com/banksaisuoy/hermes-local-ai-agent)
+> **Local GenAI:** Offline, privacy-first AI agent pairing DeepSeek-R1 (14B) on Ollama with automated tool execution.
+
+- **Hybrid Reasoning:** DeepSeek-R1 14B strategic planning with dynamic VRAM management (`keep_alive: 0`).
+- **Protocols & Tools:** Model Context Protocol (MCP) servers, subagent delegation, automated file/shell execution.
+
+---
+
+### ⚡ [CVM Industrial Power Telemetry](https://github.com/banksaisuoy/cvm-power-meter-telemetry)
+- 3-phase industrial power telemetry firmware extracting Modbus RTU data into PostgreSQL & Node-RED.
 
 ---
 
 ### 🛒 [OmniFlow AI Commerce & POS](https://github.com/banksaisuoy/omniflow-ai-commerce)
-- Multi-channel cloud POS and e-commerce platform with automated inventory management.
+- Multi-channel cloud POS and e-commerce platform with automated inventory synchronization.
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠️ Technical Stack
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Embedded & IoT (OT)** | ESP32, ESP32-S3, FreeRTOS, Modbus RTU (RS485), MQTT, LittleFS, BLE, Sensor Interfacing |
-| **Enterprise IT Support & Network** | Windows Client OS Support (DISM, SFC, netsh, batch scripting), GL.iNet OpenWrt, Tailscale Mesh VPN, WireGuard, Cloudflare Tunnels, 3CX PBX |
-| **AI & Automation** | Gemini API, pgvector RAG, n8n (Self-hosted), Power Apps, Power Automate, Python scripting |
-| **Full-Stack & Cloud** | Next.js 16, React, TypeScript, Node.js, Prisma, PostgreSQL, InfluxDB, Supabase, Firebase, Docker, Vercel |
+| **Embedded & IoT (OT)** | ESP32, ESP32-S3, ESP32-CAM, FreeRTOS, Modbus RTU (RS485), LoRa (SX1278), LittleFS, MQTT, BLE |
+| **AI Systems & Automation** | Gemini API, pgvector RAG, Ollama (DeepSeek-R1, Qwen3), n8n (Self-hosted), Power Apps, Power Automate |
+| **Full-Stack & Cloud** | Next.js 16, React 19, TypeScript, Node.js, Prisma, Neon Postgres, InfluxDB, Docker, Vercel |
+| **Enterprise IT & Network** | Windows Client Support (DISM, SFC, batch scripts), OpenWrt (GL.iNet Flint 3), Tailscale, WireGuard, 3CX PBX |
 
 ---
 
