@@ -20,12 +20,14 @@
 
 ---
 
-### 🦆 [AeroDuck Pro — Livestock Ventilation Controller](https://github.com/banksaisuoy/aeroduck-pro-firmware)
-> **Deployment:** Operating live on a commercial duck farm (Firmware v20.3.2).
+### 🦆 AeroDuck Pro — Livestock Ventilation Controller
+> **Deployment:** Operating live on a commercial duck farm (Firmware **v21.2.4 — Two-Stage Failsafe**, 16MB dual-OTA).
+> *Proprietary / CPF internal — private repository. Public firmware artifacts available on request.*
 
 - **Hardware & RTOS:** ESP32-S3, FreeRTOS multi-tasking architecture.
 - **Sensors & Actuators:** Modbus RTU / RS485 (SHT20 temperature & humidity), multi-stage fan relay control, THI calculation.
-- **Connectivity:** MQTT telemetry with circular LittleFS flash buffering, local web dashboard & OTA updates.
+- **Reliability:** Two-stage failsafe logic, adversarial test harness, Docker CI zero-defect build.
+- **Connectivity:** MQTT telemetry with circular LittleFS flash buffering, Grafana/Node-RED dashboards & signed OTA updates.
 
 ---
 
